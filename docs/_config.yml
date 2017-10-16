@@ -11,8 +11,7 @@ github_username:  EAL-IT-Technology
 
 # Build settings
 markdown: kramdown
-theme: minima
-#theme: jekyll-theme-architect
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
