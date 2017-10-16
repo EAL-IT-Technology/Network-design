@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# {{ page.title }}
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+The material presented here is intended for first and second year IT technology student at [EAL](http://eal.dk).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+The goal is to present a vendor-agnostic way of documenting computer networks. The text is not to be seen as the only viable way of doing diagrams and other documentation - think more in terms of pedagogical way of introducing the basic concepts to prepare the student for the specific way it is done in whatever specific company the student will work in post graduation.
 
-
-[jekyll-organization]: https://github.com/jekyll
+That being said, we always invite comments, corrections and new idea to continually improve the skillset.
