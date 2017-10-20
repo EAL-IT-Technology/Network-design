@@ -2,7 +2,7 @@ title: ITT network design
 email: mon@eal.dk
 description: > # this means to ignore newlines until "baseurl:"
   This a guide on how to make layer 3 network diagrams.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Network-design" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  EAL-IT-Technology
