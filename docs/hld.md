@@ -39,9 +39,16 @@ The generic HLD design documents will include
 
     The list will include 2-3 sentences to give the reader an idea of what the protocol is about, and a link to an authoritative source like IEEE, rfc og IETF.
 
-5. IP Layout and​​ VLAN​s​​ (if​ ​ applicable)
+5. IP Layout and VLANs (if applicable)
 
-    This is a table of subnets and associated IP addresses. The table must include subnet name, ip address range, VLAN (if appl).
+    This is a table of subnets and associated IP addresses. The table must include subnet name, ip address range, VLAN (if appl). Ensure that the column with IP addresses are sorted in ascending order, so any overlap is obvious.
+
+    
+    | Subnet name | Network address | VLAN id (if appl) | Virt. name |
+    | --- | --- | --- | --- |
+    | USR_LAN | 10.10.10.0/24 | 10 | vmnet0 |
+    | SRV_LAN | 10.10.20.0/24 | 20 | vmnet2 |
+
 
     If the system uses virtualization, the specific virtual network (e.g vmnet1) may be included as a column also.
 
@@ -50,3 +57,13 @@ The generic HLD design documents will include
 6. Naming Convention
 
     This a list of how devices and other entities will be named in the system.
+    
+    | Name | Device type | Comments |
+    | --- | --- | --- |
+    | vSRX-{number} | Juniper virtual SRX | _Number_ is consecutive numbering, e.g vSRX-02 |
+    | {function}_LAN | Subnet | _function_ is the use of the subnet, e.g. SRV_LAN |
+    | Direct_{Router number}_{Router number} | Subnet  | Specialized subnet for direct connecitons between routers, e.g. Direct_02_03|
+    
+
+    
+    
